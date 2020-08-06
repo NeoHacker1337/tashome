@@ -2,9 +2,13 @@
 <html prefix="og: http://ogp.me/ns#" lang="en">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-
-
-
+<style>
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+    background: goldenrod;
+}
+</style>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home Service-Door </title>
@@ -26,7 +30,7 @@
 </div>
 
 
-<header id="header" class="page-topbar">
+<header id="header" class="page-topbar" >
 <div class="navbar-fixed">
 
 <nav class="navbar-color">
@@ -37,8 +41,8 @@
 </li>
 <li>
 <div class="logo-wrapper">
-<a href="index.php" class="brand-logo left">
-<img class="responsive-img" src="images/wc4u.jpeg" alt="tashome logo" width="70px" height="35px">
+<a href="index.php" class="brand-logo left" >
+<img class="responsive-img" src="images/logo1.png" alt="tashome logo" width="70px" height="35px">
 <span class="hide">Home Service</span>
 </a>
 </div>
@@ -64,7 +68,7 @@
 </a>
 </li>
 <li>
-<button onclick="if (!window.__cfRLUnblockHandlers) return false; location.href='login.html';" type="submit" class="waves-effect waves-light btn-flat login_btn" data-cf-modified-e00224456859bdd74bc3ffcf-="">Login</button>
+<button onclick="if (!window.__cfRLUnblockHandlers) return false; location.href='login.php';" type="submit" class="waves-effect waves-light btn-flat login_btn" data-cf-modified-e00224456859bdd74bc3ffcf-="">Login</button>
 </li>
 </ul>
 </div>
